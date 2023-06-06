@@ -34,7 +34,7 @@ function NavBar({ currPage, handlePageChange }) {
         <MDBCollapse navbar show={showNav}>
           <MDBNavbarNav>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#about'
+              <MDBNavbarLink href='#about'
               onClick={() => handlePageChange('About')}
               className={currPage === 'About' ? 'nav-link active' : 'nav-link'}
               >About
