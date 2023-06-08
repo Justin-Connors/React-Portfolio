@@ -25,7 +25,7 @@ function Footer() {
         </MDBContainer>
         <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
           © 2023 Copyright: &nbsp;
-          <a className='text-white' href='https://mdbootstrap.com/'>
+          <a className='text-white' href='https://github.com/Justin-Connors/React-Portfolio' target="_blank">
             Justin Connors
           </a>
         </div>

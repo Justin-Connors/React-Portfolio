@@ -56,6 +56,13 @@ function NavBar({ currPage, handlePageChange }) {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
+                <MDBNavbarLink href='#resume'
+                onClick={() => handlePageChange('Resume')}
+                className={currPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                >Resume
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
