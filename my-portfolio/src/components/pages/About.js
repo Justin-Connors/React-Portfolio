@@ -32,6 +32,9 @@ export default function About() {
           margin: "5rem auto",
         }}
       >
+        <h2 className="">
+            About Me!
+        </h2>
         <MDBRow>
           <MDBCol md="8">
             <MDBBtn
@@ -115,7 +118,7 @@ export default function About() {
             </MDBCollapse>
           </MDBCol>
 
-          <MDBCol md="4" className="mt-2">
+          <MDBCol md="4" className="mt-2 mb-5">
             <img
               src={require("../../img/self.jpg")}
               className="img-fluid rounded"
