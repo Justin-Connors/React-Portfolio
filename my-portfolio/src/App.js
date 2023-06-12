@@ -11,7 +11,7 @@ function App() {
       <div className="mb-4">
         <NavBar />
       </div>
-      <div>
+      <div className="me-2">
         <PortfolioContainer />
       </div>
       <div className="mt-4">
