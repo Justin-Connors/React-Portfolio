@@ -6,13 +6,19 @@ import Footer from "./components/Footer";
 // const App = () => <PortfolioContainer />;
 
 function App() {
-    return (
-        <div>
-            <NavBar />
-            <PortfolioContainer />
-            <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <div className="mb-4">
+        <NavBar />
+      </div>
+      <div>
+        <PortfolioContainer />
+      </div>
+      <div className="mt-4">
+        <Footer />
+      </div>
+    </div>
+  );
 }
 
 export default App;
