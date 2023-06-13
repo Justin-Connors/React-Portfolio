@@ -18,11 +18,8 @@ function NavBar({ currPage, handlePageChange }) {
     <div className='fixed-top'>
       <MDBNavbar expand='lg' dark bgColor='dark'>
         <MDBContainer fluid>
-          <MDBNavbarBrand
-          href='#home'
-          onClick={() => handlePageChange('Home')}
-              className={currPage === 'Home' ? 'nav-link active' : 'nav-link'}
-              >Justin Connors
+          <MDBNavbarBrand>
+            Justin Connors
           </MDBNavbarBrand>
           <MDBNavbarToggler
             type='button'
@@ -49,13 +46,6 @@ function NavBar({ currPage, handlePageChange }) {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href='#contact'
-                onClick={() => handlePageChange('Contact')}
-                className={currPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >Contact
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
                 <MDBNavbarLink href='#resume'
                 onClick={() => handlePageChange('Resume')}
                 className={currPage === 'Resume' ? 'nav-link active' : 'nav-link'}
@@ -63,6 +53,11 @@ function NavBar({ currPage, handlePageChange }) {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
+                <MDBNavbarLink href='#contact'
+                onClick={() => handlePageChange('Contact')}
+                className={currPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                >Contact
+                </MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
