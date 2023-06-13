@@ -34,5 +34,5 @@ Open a pull request on the original repository to propose your changes.
 
 Your contribution will be reviewed, and if approved, it will be merged into the main repository.
 
-License
+## License
 This project is licensed under the MIT License. Feel free to use and modify the code according to your needs.
