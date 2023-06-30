@@ -38,15 +38,14 @@ export default function Projects() {
             </a>
           </MDBRipple>
           <MDBCardBody>
-            <MDBCardTitle>This Portfolio!</MDBCardTitle>
+            <MDBCardTitle>Culinary Chronicles</MDBCardTitle>
             <MDBCardText>
-              Using React, I created this portfolio to showcase my work and
-              skills.
+              This is a MERN stack app that I worked on with a team as my final project at UNB bootcamp.
             </MDBCardText>
             <MDBBtn
               color="dark"
               target="_blank"
-              href="https://github.com/Justin-Connors/React-Portfolio"
+              href="https://culinary-chronicles-3c88f23f36ac.herokuapp.com/"
             >
               Show Me!
             </MDBBtn>
